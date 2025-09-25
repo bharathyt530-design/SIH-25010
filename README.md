@@ -1,7 +1,7 @@
 # Smart India Hackathon Workshop
-# Date:
-## Register Number:
-## Name:
+# Date:25/09/2025
+## Register Number:25017553
+## Name:Bharath v
 ## Problem Title
 SIH 25010: Smart Crop Advisory System for Small and Marginal Farmers
 ## Problem Description
@@ -41,28 +41,62 @@ Government of Punjab
 Agriculture, FoodTech & Rural Development
 
 ## Proposed Solution
-<h3>Remove These Lines</h3>
-<ul><li>Detailed explanation of the proposed solution</li>
-<li>How it addresses the problem</li>
-<li>Innovation and uniqueness of the solution</li></ul>
+The proposed solution is a Smart Crop Advisory System that uses AI, IoT, and multilingual support to empower small and marginal farmers.
+
+- Personalized crop advisory based on soil, crop history, and climate.
+- AI-powered pest/disease detection via image uploads.
+- Multilingual mobile app with voice support for low-literate farmers.
+- Real-time weather and market price alerts.
+- Feedback-based learning for continuous improvement.
+
+Innovation: 
+This combines AI image recognition, IoT soil sensors, and real-time weather APIs in a farmer-friendly app with regional language voice support.
+
 
 ## Technical Approach
-<h3>Remove These Lines</h3>
-<ul><li>Technologies to be used (e.g. programming languages, frameworks, hardware)
-</li>
-<li>Methodology and process for implementation <b>(Flow Charts/Images/ working prototype)</b></li></ul>
+- Technologies Used:
+  - Python, TensorFlow for AI/ML pest detection.
+  - Flutter/React Native for mobile app.
+  - Node.js/Django for backend.
+  - PostgreSQL/MongoDB for database.
+  - IoT soil sensors (pH, moisture).
+  - OpenWeather API and government agri databases.
+
+- Implementation Process:
+  1. Collect soil, crop, and weather data.
+  2. Run AI models for crop advisory.
+  3. Deliver insights via mobile app/chatbot.
+  4. Farmers upload crop images → AI detects pest/disease.
+  5. Provide fertilizer/water schedule and market updates.
+  6. Collect farmer feedback for improving accuracy.
+
 
 ## Feasibility and Viability
-<h3>Remove These Lines</h3>
-<ul><li>Analysis of the feasibility of the idea</li>
-<li>Potential challenges and risks</li>
-<li>Strategies for overcoming these challenges</li></ul>
+- Feasibility:
+- Rural India has high smartphone usage; low-cost IoT sensors can be deployed via cooperatives.
+- Challenges:
+  - Low digital literacy among farmers.
+  - Internet connectivity in rural areas.
+  - Farmer trust in AI advisories.
+- Strategies:
+  - Provide voice-based app in local language.
+  - Offline mode with SMS/IVR support.
+  - Build trust via government & NGO partnerships.
 
 ## Impact and Benefits
-<h3>Remove These Lines</h3>
-<ul><li>Potential impact on the target audience</li>
-<li>Benefits of the solution (social, economic, environmental, etc.)</li></ul>
+- Social:
+-  Farmers get scientific, reliable advice in their language.  
+- Economic:
+- Reduces fertilizer/pesticide costs, improves yield & profits.  
+- Environmental:
+- Encourages sustainable farming and reduced chemical overuse.  
+- Scalability:
+-  Can be expanded to multiple regions and crop types.  
 
 ## Research and References
-<h3>Remove These Lines</h3>
-<ul><li>Details / Links of the reference and research work</li></ul>
+
+- NABARD Report (2022): Status of Indian Agriculture.  
+- FAO Study (2021): Impact of ICT in Agriculture.  
+- Indian Meteorological Department (IMD) APIs.  
+- Research on AI-based pest detection in agriculture.  
+- Government of India – eNAM (National Agriculture Market).  
